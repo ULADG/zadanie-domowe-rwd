@@ -1,42 +1,32 @@
-@media all and (min-width: 1170px) {
-	#header .portfolio-items .portfolio-item {
-		width: 50%;
+
+
+@media (min-width: 1170px) {
+	background-image {height: 50%;
+		width:auto;
 	}
-	#portfolio .portfolio-items .portfolio-item:last-child {
-		width: 100%;
-	}
+	
 }
 
-@media all and (max-width: 1170px) {
-	#header {
-		background-image: 70%;
-		display: block;
-		padding: 0 20px;
-		line-height: 60px;
-		text-decoration: none;
-		border: none;
+@media (min-width: 992px) and (max-width: 1170px) {
+	background-image: width: 70%;}
+	#header .header-caption: {
 		text-align: right;
+		top: 5%
+		padding: 0 1px 2px;		
 	}
-	#h1 {
-		font-size: 70%;
-	}
-	#h2 {
-		font-size: 70%;
-	}
+#header.header caption h1 {
+	font-size:1em; 
+}
+#header.header caption h2 {
+	font-size:2.5em; 
 }
 
-.header-caption {
-	padding: 10%;
-}
-
-@media all and(max-width: 992px) {
-	padding: 0 40px 50px;
+@media (max-width: 992px) 
 	#header {
-		background-image: 50%;
+		
 		display: inline-block;
-		padding: 0 20px;
-		text-decoration: none;
-		border: none;
-		text-align: center;
+	
+		
+		
 	}
-}
+
